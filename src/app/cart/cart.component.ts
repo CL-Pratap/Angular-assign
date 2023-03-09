@@ -39,6 +39,10 @@ export class CartComponent {
     }
   }
 
+
+  ShowMessage(msg:string):string{
+    return msg;
+  }
   totalCost : number= 0;
   calculate(){
      let price=0;
@@ -46,3 +50,5 @@ export class CartComponent {
      {price= price + product.price*product.quantity}
      this.totalCost=price}
 }
+
+

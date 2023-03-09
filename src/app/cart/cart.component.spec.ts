@@ -20,4 +20,9 @@ describe('CartComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
+  it('Show Alert Message',()=>{ 
+    expect(component.ShowMessage("Hello")).toBe("Hello");
+    })
 });

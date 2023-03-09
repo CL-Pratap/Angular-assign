@@ -1,10 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+import { AppComponent } from './App/app.component';
 
 describe('AppComponent', () => {
+  let component = new AppComponent();
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+
+     
       imports: [
         RouterTestingModule
       ],
@@ -32,4 +35,7 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('CartProject app is running!');
   });
+       
+
+    
 });
