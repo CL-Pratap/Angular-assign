@@ -14,16 +14,16 @@ export class CartComponent {
   public products = [
 
 
-    { id: 1, name: 'Product 1', price: 9.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 2, name: 'Product 2', price: 19.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 3, name: 'Product 3', price: 29.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 4, name: 'Product 4', price: 39.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 5, name: 'Product 5', price: 49.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 6, name: 'Product 6', price: 59.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 7, name: 'Product 7', price: 69.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 8, name: 'Product 8', price: 79.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 9, name: 'Product 9', price: 89.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
-    { id: 10, name: 'Product 10', price: 99.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 1, name: 'Mobile', price: 9.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 2, name: 'Laptop', price: 19.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 3, name: 'Tab', price: 29.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 4, name: 'Book', price: 39.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 5, name: 'Monitor', price: 49.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 6, name: 'Desktop', price: 59.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 7, name: 'Pen', price: 69.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 8, name: 'Mouse', price: 79.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 9, name: 'Key board', price: 89.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
+    { id: 10, name: 'Adapter', price: 99.99, image: 'https://dummyimage.com/300x200/000/fff', quantity: 1 },
   ];
 
   addToCart(id: number) {
